@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/style.css">
   <title>Jugando con selectores</title>
 </head>
 <body>
@@ -12,26 +13,44 @@
     especializadas en detectar las longitudes de onda procedentes de nuestro entorno
     (15.000 por milímetro cuadrado).
   </p>
-
   <h3>Bastones y Conos</h3>
   <p>Estas maravillosas células, recogen las diferentes partes del espectro de luz solar y
     las transforman en impulsos eléctricos, que son enviados al cerebro a través de los
     nervios ópticos, siendo éstos los encargados de crear la sensación de color. En la retina humana,
     existen 2 categorías principales de células fotorreceptoras,encargadas de captar la luz,
     estas son: los bastones y los conos.</p>
-
-    <table>
-      <tr>
-        <td>AAAA</td>
-        <td>AAAA</td>
-        <td>AAAA</td>
-      </tr>
-      <tr>
-        <td>BBB</td>
-        <td>BBB</td>
-        <td>BBB</td>
-      </tr>
-    </table>
-
+  <table id="tabla1">
+    <caption>Diferencias entre Bastones y Conos</caption>
+    <tr>
+      <th>Bastones</th>
+      <th>Conos</th>
+    </tr>
+    <tr>
+      <td class="vision">Visión escotópica</td>
+      <td class="vision">Visión fotópica</td>
+    </tr>
+    <tr>
+      <td>No son sensibles al color</td>
+      <td>Captan el color</td>
+    </tr>
+    <tr>
+      <td>Son sensibles a la saturación y el matiz</td>
+      <td>Captan 3 regiones del espectro luminoso</td>
+    </tr>
+  </table>
+  <p>
+    Existen tres tipos de conos1: los que responden a las longitudes de onda cercanas al color rojo,
+    otros a las cercanas al verde y un tercero a las longitudes de onda próximas al azul. Según la
+    longitud de onda que incida sobre la retina, se activan los conos en diferente grado.
+  </p>
+  <img src="assets/img/vision-azul.jpg" alt="2 dados en colores invertidos">
+  <p>
+    Si la luz es roja, los que se activarán serán el 100% de los conos que reaccionan ante el rojo.
+    En cambio si la luz es azul, se activarán el 100% de los conos que reaccionan ante el azul. Esta
+    combinación será interpretada en el sistema nervioso como “el color azul”. Por lo tanto, los colores
+    intermedios, con excepción de rojo, verde y azul, se perciben gracias al estímulo simultáneo de dos
+    o más tipos de conos.
+  </p>
+  <span>Fuente de la información:</span><a href="http://www.proyectacolor.cl/teoria-de-los-colores/fisiologia-del-color/">Teoría del color</a>
 </body>
 </html>

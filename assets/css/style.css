@@ -1,0 +1,60 @@
+body {
+  background-image:url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+}
+
+h1{
+  color: #FF9D11;
+  text-align: center;
+}
+
+h3{
+  color: #ECC328;
+  text-align: center;
+}
+
+p {
+  color: #51E8FF;
+  position: relative;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: justify;
+}
+
+#tabla1 {
+  display: inline-table;
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  border:1px solid #CCA822;
+  color:#11A1FF;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+caption {
+  border:1px solid #CCA822;
+}
+
+td{
+  border:1px solid #5882D2;
+}
+
+th {
+  border:1px solid #CCA822;
+}
+
+span {
+  color: #51E8FF;
+  margin-left: 20%;
+}
+
+a {
+  color: #ECC328;
+  cursor:pointer;
+}
